@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 添加一些基本的样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../image/省份.png);
+    background-size: cover;
+}
+
+/* 设置列表项样式 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* 设置链接样式 */
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease; /* 添加颜色渐变过渡效果 */
+}
+
+a:hover {
+    color: #007bff; /* 鼠标悬停时改变颜色 */
+}
+
+/* 设置页面布局 */
+.nmg {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* 设置列表项样式 */
+li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
