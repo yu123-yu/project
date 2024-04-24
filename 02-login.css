@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 背景图片---不平铺 */
+    background-image: url(../image/登录.jpg);
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 380px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    background-color: rgba(225, 225, 225, 0.8);
+    border-radius: 20px;
+}
+
+.box h3{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.box .input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.box .input-box label{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.box .input-box input{
+    box-sizing: border-box;
+    width: 250px;
+    height: 35px;
+    background-color: rgba(225, 225, 225, 0.3);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.box .button { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 250px;
+}
+
+.box .button a{
+    width: 250px;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    text-align: end;
+}
+
+.box .button a:hover{
+    color:white;
+}
+
+.box .button div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.box .button button{
+    width: 120px;
+    height: 35px;
+    border: 1px solid grey;
+    background-color:rgba(225, 225, 225, 0.3);
+    color: black;
+    border-radius: 5px;
+}
+
+.box .button button:nth-of-type(2){
+    margin-left: 10px;
+}
+
+.box .button button:hover{
+    border: 1px solid gray;
+    background-color:white;
+}

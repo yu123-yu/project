@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热门排行榜</title>
+    <link rel="stylesheet" href="../css/05-热门排行榜.css">
+</head>
+<body>
+    <div class="rm">
+        <h2>热门排行榜</h2>
+        <ul>
+            <li><a href="../html/04-非遗对应省份/04-11-01-北京市-京剧.html" target="_blank">京剧--北京市</a></li>
+            <li><a href="../html/04-非遗对应省份/04-19-01-广东省-粤剧.html" target="_blank">粤剧--广东省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-14-01-山西省-山西面食.html" target="_blank">山西面食--山西省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-29-02-陕西省-中国剪纸.html" target="_blank">剪纸--陕西省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-16-02-河南省-打铁花.html" target="_blank">打铁花--河南省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-16-01-河南省-太极拳.html" target="_blank">太极拳--河南省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-20-02-广西壮族自治区-三月三（壮族三月三）.html" target="_blank">三月三（壮族三月三）--广西壮族自治区</a></li>
+            <li><a href="../html/04-非遗对应省份/04-05-01-江苏省-昆曲.html" target="_blank">昆曲--江苏省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-25-02-贵州省-苗族银饰.html" target="_blank">苗族银饰--贵州省</a></li>
+            <li><a href="../html/04-非遗对应省份/04-03-02-黑龙江-黑龙江皮影戏.html" target="_blank">皮影戏--黑龙江</a></li>
+        </ul>
+
+        <div class="plq">
+            <h2>评论区</h2>
+            <div id="comments"></div>
+            <textarea id="commentInput" placeholder="在这里输入评论"></textarea>
+            <button onclick="addComment()">添加评论</button>
+
+        <script>
+            function addComment() {
+            var commentInput = document.getElementById("commentInput");
+            var commentText = commentInput.value.trim();
+            if (commentText !== "") {
+                  var commentDiv = document.createElement("div");
+                  commentDiv.className = "comment";
+                  commentDiv.innerHTML = commentText + ' <button onclick="deleteComment(this)">删除</button>';
+                  document.getElementById("comments").appendChild(commentDiv);
+                  commentInput.value = "";
+              } else {
+                  alert("请输入评论内容");
+              }
+            }
+
+        function deleteComment(commentElement) {
+            commentElement.parentNode.remove();
+            }
+</script>
+        </div>
+    </div>
+</body>
+</html>
