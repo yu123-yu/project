@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    display: inline-block;
+    background-image: url(../image/首页.png);
+    background-size: cover;
+}
+
+/* 热门排行榜 */
+.hot{
+    margin-left: 20%;
+    width:400px;
+    height:50px;
+    background-color: rgba(225, 225, 225, 0.7);
+}
+ .hot li{
+    float: left;
+ }
+ .hot  li a{
+    font-size: 30px;
+    display: inline-block;
+    width: 200px;
+    color: black;
+    text-align: center;
+ }
+ .hot li a:hover{
+    width: 200px;
+    height: 50px;
+    color: #dcc5a4;
+ }
+
+
+
+.ph{
+    width: 1080px;
+    height: 335px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 370px;
+    border: 1px solid pink;
+    background-color: rgba(225, 225, 225, 0.4);
+}
+
+
+
+/* 搜索框
+.search-box{
+    position: absolute;
+    top: 65%;
+    left:53%;
+    transform: translate(-50%,-50%);
+    height: 40px;
+    background-color: #879278;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover .search-txt{
+    width: 200px;
+    padding: 0 6px;
+}
+.search-box:hover .search-btn{
+    background: rgba(225, 225, 225, 0.7);
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+}
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #879278;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+/* 省份 */
+.h2{
+    text-align: center;
+}
+/* 东北 */
+.db{
+    width: 1080px;
+    height: 40px;
+}
+.db ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.db li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.db a{
+    color: black;
+    display: block;
+}
+.db a:hover{
+    background: #dcc5a4;
+}
+
+
+/* 华东 */
+.hd{
+    width: 1080px;
+    height: 40px;
+}
+.hd ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.hd li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.hd a{
+    color: black;
+    font-size: 15px;
+    display: block;
+}
+.hd a:hover{
+    background-color: #dcc5a4;
+    ;
+}
+
+/* 华南 */
+.hb{
+    width: 1080px;
+    height: 40px;
+}
+.hb ul{
+    width:1080px;
+    margin: 0 auto;
+}
+.hb li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.hb a{
+    color: black;
+    display: block;
+}
+.hb a:hover{
+    background:  #dcc5a4;
+}
+
+/* 华中 */
+.hz{
+    width: 1080px;
+    height: 40px;
+}
+.hz ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.hz li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.hz a{
+    color: black;
+    display: block;
+
+}
+.hz a:hover{
+    background:  #dcc5a4;
+}
+
+/* 华南 */
+.hn{
+    width: 1080px;
+    height: 40px;
+}
+.hn ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.hn li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.hn a{
+    color: black;
+    display: block;
+}
+.hn a:hover{
+    background:  #dcc5a4;
+}
+
+/* 西南 */
+.xn{
+    width: 1080px;
+    height: 40px;
+}
+.xn ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.xn li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.xn a{
+    color: black;
+    display: block;
+}
+.xn a:hover{
+    background:  #dcc5a4;
+}
+
+/* 西北 */
+.xb{
+    width: 1080px;
+    height: 40px;
+}
+.xb ul{
+    width: 1080px;
+    margin: 0 auto;
+}
+.xb li{
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.xb a{
+    color: black;
+    font-size: 15px;
+    display: block;
+}
+.xb a:hover{
+    background:  #dcc5a4;
+}
